@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo blanco con borde rojo -->
+  <rect width="40" height="40" rx="6" fill="white" stroke="#8B1538" stroke-width="2"/>
+  
+  <!-- Forma de diamante con borde rojo -->
+  <path d="M12 8 L28 8 L32 20 L28 32 L12 32 L8 20 Z" 
+        fill="white" 
+        stroke="#8B1538" 
+        stroke-width="2"/>
+  
+  <!-- Texto IESA -->
+  <text x="20" y="25" 
+        text-anchor="middle" 
+        fill="#8B1538" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="bold">IESA</text>
+</svg>
