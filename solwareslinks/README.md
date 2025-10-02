@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Solware Linktree - Next.js
 
-## Getting Started
+Una página de enlaces estilo Linktree para Solware, construida con Next.js, TypeScript y Tailwind CSS.
 
-First, run the development server:
+## 🚀 Características
+
+- ✨ Diseño moderno con gradientes animados
+- 🏆 Sección de reconocimiento Hackathon IESA con copa dorada
+- 📱 Completamente responsive
+- ⚡ Optimizado para Vercel
+- 🎨 Animaciones CSS personalizadas
+- 🔗 Enlaces a proyectos y redes sociales de Solware
+
+## 🛠️ Tecnologías
+
+- **Next.js 15.5.4** - Framework de React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos utilitarios
+- **SVG Icons** - Iconos personalizados sin dependencias externas
+
+## 📦 Instalación
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/Solware-Agency/enlaces-ig.git
+
+# Navegar al directorio
+cd solwareslinks
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment en Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Configuración Automática
 
-## Learn More
+1. **Conecta tu repositorio**: Ve a [Vercel](https://vercel.com) y conecta tu repositorio de GitHub
+2. **Configuración automática**: Vercel detectará automáticamente que es un proyecto Next.js
+3. **Deploy**: Haz clic en "Deploy" y ¡listo!
 
-To learn more about Next.js, take a look at the following resources:
+### Configuración Manual (si es necesario)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework Preset**: Next.js
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next` (automático)
+- **Install Command**: `npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Variables de Entorno (opcional)
 
-## Deploy on Vercel
+Si necesitas configurar variables de entorno, crea un archivo `.env.local`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```env
+NEXT_PUBLIC_SITE_URL=https://tu-dominio.vercel.app
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Estructura del Proyecto
+
+```
+solwareslinks/
+├── app/
+│   ├── globals.css          # Estilos globales y animaciones
+│   ├── layout.tsx           # Layout principal
+│   └── page.tsx             # Página de inicio (Linktree)
+├── public/
+│   └── iesa-logo.svg        # Logo de IESA
+├── vercel.json              # Configuración de Vercel
+├── next.config.ts           # Configuración de Next.js
+└── package.json             # Dependencias y scripts
+```
+
+## 🎨 Personalización
+
+### Cambiar Enlaces
+Edita el archivo `app/page.tsx` para modificar los enlaces y texto.
+
+### Actualizar Animaciones
+Las animaciones personalizadas están en `app/globals.css`.
+
+### Cambiar Colores
+Los colores se manejan con clases de Tailwind CSS en los componentes.
+
+## 📞 Contacto
+
+- **Web**: [solware.agency](https://www.solware.agency)
+- **LinkedIn**: [Agencia Solware](https://www.linkedin.com/company/agencia-solware)
+- **WhatsApp**: [+58 412 997 4533](https://wa.me/584129974533)
+
+## 🏆 Reconocimientos
+
+🥇 **1er Lugar Hackathon IESA 2025**
+
+---
+
+Desarrollado con ❤️ por [Solware Agency](https://www.solware.agency)
